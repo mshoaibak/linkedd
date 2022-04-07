@@ -30,8 +30,9 @@
 .service-card:hover {
   /* outline: 1px solid white; */
 }
-h1 {
-  font-size: 3rem;
+.services-main h1 {
+  font-size: 56px;
+  text-transform: uppercase;
 }
 
 .coll {
@@ -42,7 +43,7 @@ h1 {
   align-items: center;
 }
 .span12 {
-  width: 80%;
+  width: 95%;
   padding: 40px 0;
 
   position: absolute;
@@ -50,26 +51,26 @@ h1 {
 }
 
 .span22 {
-  width: 80%;
+  width: 95%;
   position: absolute;
   height: 35vh;
 }
 
 .span32 {
-  width: 80%;
+  width: 95%;
 
   position: absolute;
   height: 35vh;
 }
 
 .span42 {
-  width: 80%;
+  width: 95%;
   position: absolute;
   height: 35vh;
 }
 
 .coll:hover .span12 {
-  width: 80%;
+  width: 95%;
   transform: translateY(50px);
   position: absolute;
   background-color: #edf1ff;
@@ -86,7 +87,7 @@ h1 {
 }
 
 .coll:hover .span22 {
-  width: 75%;
+  width: 90%;
   transform: translateY(40px);
   position: absolute;
   background-color: #edf1ff;
@@ -106,11 +107,11 @@ h1 {
 
   transition: 500ms all ease-in-out;
 
-  width: 70%;
+  width: 85%;
   z-index: 2;
 }
 .coll:hover .span42 {
-  width: 65%;
+  width: 80%;
   transform: translateY(20px);
   position: absolute;
   background-color: #edf1ff;
@@ -125,7 +126,7 @@ h1 {
   border: 1px solid #05386b;
 }
 .span1 {
-  width: 80%;
+  width: 95%;
   padding: 40px 0;
 
   position: absolute;
@@ -133,33 +134,33 @@ h1 {
 }
 
 .span2 {
-  width: 80%;
+  width: 95%;
   position: absolute;
   height: 35vh;
 }
 
 .span3 {
-  width: 80%;
+  width: 95%;
 
   position: absolute;
   height: 35vh;
 }
 
 .span4 {
-  width: 80%;
+  width: 95%;
   position: absolute;
   height: 35vh;
 }
 
-.coll {
+/* .coll {
   height: 50vh;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .coll:hover .span1 {
-  width: 80%;
+  width: 95%;
   transform: translateY(-50px);
   position: absolute;
   /* background-color: #13202d; */
@@ -174,7 +175,7 @@ h1 {
 }
 
 .coll:hover .span2 {
-  width: 75%;
+  width: 90%;
   transform: translateY(-40px);
   position: absolute;
   background-color: #edf1ff;
@@ -193,11 +194,11 @@ h1 {
 
   transition: 500ms all ease-in-out;
 
-  width: 70%;
+  width: 85%;
   z-index: 2;
 }
 .coll:hover .span4 {
-  width: 65%;
+  width: 85%;
   transform: translateY(-20px);
   position: absolute;
   background-color: #edf1ff;

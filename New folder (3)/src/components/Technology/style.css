@@ -93,45 +93,48 @@
 .main-heading h1 {
   font-size: 56px;
   color: #05386b;
+  text-transform: uppercase;
 }
 
 .main-heading h2 {
   font-size: 56px;
   color: #05386b;
+  text-transform: uppercase;
 }
 .main-heading h6 {
   font-size: 30px;
   opacity: 0.7;
+  text-transform: uppercase;
 }
 
 .spanned {
   border: 1px solid #05386b;
 }
 .span1 {
-  width: 80%;
+  width: 95%;
   padding: 40px 0;
 
   position: absolute;
-  height: 25vh;
+  height: 35vh;
 }
 
 .span2 {
-  width: 80%;
+  width: 95%;
   position: absolute;
-  height: 25vh;
+  height: 35vh;
 }
 
 .span3 {
-  width: 80%;
+  width: 95%;
 
   position: absolute;
-  height: 25vh;
+  height: 35vh;
 }
 
 .span4 {
-  width: 80%;
+  width: 95%;
   position: absolute;
-  height: 25vh;
+  height: 35vh;
 }
 
 .col1 {
@@ -140,9 +143,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid red; */
+  padding-top: 35px;
+}
+
+.col2 {
+  height: 50vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  padding-bottom: 40px;
 }
 .col1:hover .span1 {
-  width: 80%;
+  width: 95%;
   transform: translateY(-50px);
   position: absolute;
   /* background-color: #13202d; */
@@ -157,7 +172,7 @@
 }
 
 .col1:hover .span2 {
-  width: 75%;
+  width: 90%;
   transform: translateY(-40px);
   position: absolute;
   background-color: #edf1ff;
@@ -176,11 +191,11 @@
 
   transition: 500ms all ease-in-out;
 
-  width: 70%;
+  width: 85%;
   z-index: 2;
 }
 .col1:hover .span4 {
-  width: 65%;
+  width: 80%;
   transform: translateY(-20px);
   position: absolute;
   background-color: #edf1ff;
@@ -208,34 +223,34 @@
 /* hghgjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
 
 .span12 {
-  width: 80%;
+  width: 95%;
   padding: 40px 0;
 
   position: absolute;
-  height: 25vh;
+  height: 35vh;
 }
 
 .span22 {
-  width: 80%;
+  width: 95%;
   position: absolute;
-  height: 25vh;
+  height: 35vh;
 }
 
 .span32 {
-  width: 80%;
+  width: 95%;
 
   position: absolute;
-  height: 25vh;
+  height: 35vh;
 }
 
 .span42 {
-  width: 80%;
+  width: 95%;
   position: absolute;
-  height: 25vh;
+  height: 35vh;
 }
 
-.col1:hover .span12 {
-  width: 80%;
+.col2:hover .span12 {
+  width: 95%;
   transform: translateY(50px);
   position: absolute;
   background-color: #edf1ff;
@@ -251,8 +266,8 @@
   z-index: 4;
 }
 
-.col1:hover .span22 {
-  width: 75%;
+.col2:hover .span22 {
+  width: 90%;
   transform: translateY(40px);
   position: absolute;
   background-color: #edf1ff;
@@ -263,7 +278,7 @@
 
   z-index: 3;
 }
-.col1:hover .span32 {
+.col2:hover .span32 {
   transform: translateY(30px);
   position: absolute;
   background-color: #edf1ff;
@@ -272,11 +287,11 @@
 
   transition: 500ms all ease-in-out;
 
-  width: 70%;
+  width: 85%;
   z-index: 2;
 }
-.col1:hover .span42 {
-  width: 65%;
+.col2:hover .span42 {
+  width: 80%;
   transform: translateY(20px);
   position: absolute;
   background-color: #edf1ff;

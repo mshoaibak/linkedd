@@ -9,7 +9,7 @@ const Awards = () => {
       <div className="awards-main">
         <Container>
           <Row>
-            <h1 className="text-center mt-5 mb-5 font-weight-bold text-dark ">
+            <h1 className="text-center mt-5 mb-5 font-weight-bold  ">
               Acheivements and Awards
             </h1>
             {AwardsData.map((val) => {

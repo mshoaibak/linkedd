@@ -148,6 +148,13 @@ h6 {
   font-size: 50px;
 }
 
+.arrow-icon {
+  color: #fff;
+  margin-left: 10px;
+}
+.ourcompany-wrapper button:hover > .arrow-icon {
+  transform: translateX(7px);
+}
 .ourcompany-img-txt h6 {
   color: #05386b;
   font-size: 20px;
@@ -162,7 +169,7 @@ h6 {
 @media (max-width: 767px) {
   .company-txt {
     position: absolute;
-    width: 100%;
+    width: 90%;
 
     background-size: cover;
     padding-left: 10px !important;

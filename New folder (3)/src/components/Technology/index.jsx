@@ -56,7 +56,7 @@ const Technology = () => {
           </Row>
 
           <Row>
-            <Col md={4} className="col1">
+            <Col md={4} className="col2">
               <span className="span12 spanned">
                 <h5>Cloud and Development</h5>
                 <p>
@@ -68,7 +68,7 @@ const Technology = () => {
               <span className="span32 spanned"></span>
               <span className="span42 spanned"></span>
             </Col>
-            <Col md={4} className="col1">
+            <Col md={4} className="col2">
               <span className="span12 spanned">
                 <h5>Cloud and Development</h5>
                 <p>
@@ -80,7 +80,7 @@ const Technology = () => {
               <span className="span32 spanned"></span>
               <span className="span42 spanned"></span>
             </Col>
-            <Col md={4} className="col1">
+            <Col md={4} className="col2">
               <span className="span12 spanned">
                 <h5>Cloud and Development</h5>
                 <p>

@@ -54,7 +54,9 @@ const Navigation = () => {
               // onMouseLeave={() => setSubnav(false)}
               // className="listBorder hello"
             >
-              <Link to="/services-page">Services</Link>
+              <Link style={{ color: "#05386b" }} to="/services-page">
+                Services
+              </Link>
               <FontAwesomeIcon icon={faAngleDown} className="drop-icon" />
 
               {/* <ul>
@@ -69,7 +71,9 @@ const Navigation = () => {
               <a>Clients</a>
             </li>
             <li className="listBorder">
-              <Link to="/company">Company</Link>
+              <Link style={{ color: "#05386b" }} to="/company">
+                Company
+              </Link>
             </li>
 
             <li className="listBorder more">Resources</li>

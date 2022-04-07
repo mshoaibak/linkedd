@@ -102,6 +102,17 @@ export default function Ourcompany() {
             </div>
           </div>
         </div>
+        <div className="company-btn">
+          <button>
+            <Link to="/company">Explore More</Link>
+            <FontAwesomeIcon
+              className="arrow-icon"
+              size="lg "
+              color="#05386b"
+              icon={faArrowRight}
+            />
+          </button>
+        </div>
       </div>
     </>
   );

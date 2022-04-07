@@ -15,5 +15,14 @@
 
 h1 {
   color: white;
+  font-size: 56px;
+  text-transform: uppercase;
+  color: #05386b;
+}
+
+.awards-main h1 {
+  font-size: 56px;
+  text-transform: upper;
+  color: #05386b;
 }
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");

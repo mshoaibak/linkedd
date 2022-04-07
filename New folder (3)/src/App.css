@@ -3,4 +3,9 @@ body {
   font-family: "Manrope", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+  cursor: url("./assest/ETC.png"), default;
+
+  /* 
+  cursor: url("../../assest/serviceImages/BTC.png"), default;
+April 7, 2022 */
 }

@@ -113,6 +113,15 @@ li {
 .drop-icon {
   margin-left: 5px;
 }
+
+.listBorder {
+  text-transform: uppercase;
+  color: #05386b;
+}
+
+.listB {
+  color: #05386b;
+}
 .listBorder a {
   text-decoration: none;
   list-style: none;
@@ -145,7 +154,7 @@ li {
     display: flex;
 
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     position: fixed;
     height: 100vh;
@@ -153,14 +162,16 @@ li {
 
     background: #05386b;
     z-index: 1;
-    width: 50%;
+    width: 60%;
     right: 0;
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    padding-top: 100px;
   }
 
   .ul li {
     width: 90%;
     padding: 0 20px;
+    /* text-transform: capitalize; */
 
     margin: 20px 0;
     border-bottom: 1px solid white;

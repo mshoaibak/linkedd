@@ -14,7 +14,7 @@ const Services = () => {
       <div className="services-main" id="services">
         <h1 className="text-center mb-5 mt-5 font-weight-bold  ">Services</h1>
 
-        <Container style={{ width: "80%", margin: "0 auto" }}>
+        <Container>
           {/* <Row style={{ width: "100%", margin: "0 auto" }} className="mx-auto">
             {ServicesData.slice(0, 3).map((val) => {
               return (
@@ -43,7 +43,7 @@ const Services = () => {
             })}
           </Row> */}
 
-          <Row style={{ width: "100%", margin: "0 auto" }} className="mx-auto">
+          <Row>
             {ServicesData.slice(0, 3).map((val) => {
               return (
                 <Col md={4} className="coll">
@@ -76,7 +76,7 @@ const Services = () => {
               );
             })}
           </Row>
-          <Row style={{ width: "100%", margin: "0 auto" }} className="mx-auto">
+          <Row>
             {ServicesData.slice(3, 6).map((val) => {
               return (
                 <Col md={4} className="coll">
