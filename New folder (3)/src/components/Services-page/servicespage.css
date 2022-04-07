@@ -1,0 +1,17 @@
+.servicespage-wrapper {
+  width: 76% !important;
+}
+.service-btn button {
+  color: #fff;
+  background: #5cdb95;
+  padding: 10px 24px;
+  border-radius: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+
+.service-btn button:hover {
+  background-color: #17c465;
+}

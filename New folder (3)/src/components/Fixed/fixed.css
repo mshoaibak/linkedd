@@ -1,0 +1,68 @@
+.fixed-main {
+  /* background: white; */
+  background: #edf1ff;
+  width: 100%;
+
+  padding: auto 0;
+  font-family: "Manrope", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
+  margin: 10px 0;
+}
+.h5 {
+  font-weight: bold;
+}
+.h3 {
+  position: relative;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.h3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 5%;
+  left: 0%;
+  border-bottom: 2px solid white;
+}
+
+.middle {
+  margin: 30px 0;
+}
+.h3b {
+  position: relative;
+  font-weight: bold;
+}
+
+.h3b::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 5%;
+  left: 0%;
+  border-bottom: 2px solid black;
+}
+.fixed-flex h3 {
+  margin-bottom: 30px;
+}
+
+p {
+  font-weight: bold;
+}
+.fixed-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .fixed-main {
+    min-height: 170vh;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");

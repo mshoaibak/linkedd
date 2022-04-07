@@ -1,0 +1,22 @@
+.main {
+  width: 100%;
+  min-height: 100%;
+
+  font-family: "Manrope", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background: #5cdb95;
+}
+
+.bor {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 500px) {
+  .imgsuccess {
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");

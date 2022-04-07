@@ -1,0 +1,253 @@
+/* .ourcompany-main-img {
+  background-image: url("../../assest/office.jpg");
+}
+
+.ourcompany img {
+  width: 100%;
+  opacity: 1;
+}
+.ourcompany-sub-img {
+  display: flex;
+  margin-top: 20px;
+}
+.ourcompany-img1 {
+  margin-left: 20px;
+  position: relative;
+}
+
+.company-container {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.ourcompany-main-img {
+  margin-left: 20px;
+  position: relative;
+}
+
+.ourcompany-main-img img {
+  height: 100vh;
+}
+.ourcompany-img-txt {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.company-main-img-txt {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.ourcompany-img1 img {
+  width: 100%;
+}
+.company-main-img-txt p,
+h2 {
+  color: white;
+}
+.company-main-img-txt p {
+  font-weight: 400;
+  font-size: 20px;
+  padding-right: 24px;
+}
+
+.ourcompany-img-cluch {
+  position: absolute;
+  top: -25%;
+  left: 60%;
+}
+
+.ourcompany-img-txt h4 {
+  color: black;
+}
+@media (max-width: 767px) {
+  .ourcompany-sub-img {
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 54px;
+  }
+  .company-main-img-txt {
+    left: 8%;
+  }
+  .company-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .ourcompany-main-img {
+    margin-left: 0;
+  }
+} */
+/* 
+.company-main {
+  background-image: url("../../assest/office.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+} */
+
+.ourcompany-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+.company-main {
+  position: relative;
+
+  padding: 0%;
+}
+.company-main img {
+  width: 100%;
+}
+.company-txt {
+  position: absolute;
+  width: 90%;
+  padding: 0 300px 0 0;
+  top: 10%;
+  left: 10%;
+}
+.ourcompany-sub-img {
+  /* width: 80%;
+  margin: 0 auto; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-txt p {
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+}
+.company-txt h2 {
+  color: white;
+}
+
+.ourcompany-img1 img {
+  width: 400px;
+}
+
+.ourcompany-img1 {
+  position: relative;
+  margin-top: 30px;
+}
+.ourcompany-img-txt {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.ourcompany-img-txt h4,
+h6 {
+  color: #05386b;
+  font-size: 50px;
+}
+
+.ourcompany-img-txt h6 {
+  color: #05386b;
+  font-size: 20px;
+  font-weight: 400;
+}
+@media (max-width: 1051px) {
+  .ourcompany-img1 img {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .company-txt {
+    position: absolute;
+    width: 100%;
+
+    background-size: cover;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .company-txt p {
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+  .company-main img {
+    height: 60vh;
+  }
+  .company-main img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .ourcompany-img1 img {
+    width: 100%;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .ourcompany-img1 {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1409px) and (min-width: 1200px) {
+  .ourcompany-img1 img {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1051px) {
+  .ourcompany-img1 img {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 997px) {
+  .company-txt {
+    top: 20%;
+  }
+  .company-txt {
+    padding: 0 10px 0 0;
+    left: 4%;
+  }
+}
+@media only screen and (max-width: 2000px) and (min-width: 1200px) {
+  .company-txt {
+    top: 20%;
+  }
+}
+@media (max-width: 997px) {
+  .company-txt {
+    width: 100%;
+    padding: 0 10px 0 0;
+    top: 10%;
+    left: 2%;
+  }
+  .company-txt p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #05386b;
+  }
+  .ourcompany-sub-img {
+    flex-direction: column;
+  }
+  .ourcompany-img1 img {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .ourcompany-img1 {
+    display: flex;
+  }
+}
+@media (max-width: 500px) {
+  .ourcompany-img1 img {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 329px) {
+  .ourcompany-img1 img {
+    width: 200px;
+    margin: 0 auto;
+  }
+}

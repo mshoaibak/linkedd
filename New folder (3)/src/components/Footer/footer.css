@@ -1,0 +1,25 @@
+.footer-main {
+  padding: 20px 0;
+  font-weight: bold;
+  font-family: "Manrope", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* background: linear-gradient(white, #a8dba4); */
+  /* background: #a8dba4; */
+  background: #edf1ff;
+}
+.footer-main h5 {
+  cursor: pointer;
+}
+.footer-main h6 {
+  cursor: pointer;
+}
+h1 {
+  color: black;
+  font-weight: bolder;
+}
+h5 {
+  font-weight: bolder;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");

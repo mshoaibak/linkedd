@@ -1,0 +1,111 @@
+.hovercard-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #5cdb95;
+  padding-top: 203px;
+  padding-bottom: 100px;
+}
+
+.hovercard-header-txt h1,
+h2,
+h3,
+h4 {
+  color: #05386b;
+  font-size: 50px;
+}
+.hover-card1 h6 {
+  font-size: 18px;
+  padding: 0 49px;
+}
+.hovercard-header-txt span {
+  color: rgb(160, 78, 78);
+  font-size: 55px;
+}
+
+.hovercad-main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 195px;
+}
+.hover-card-txt ul {
+  list-style: none;
+}
+.hover-card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  padding-top: 10px;
+  margin-top: 20px;
+  width: 345px;
+  height: 422px;
+  padding-top: 30px;
+}
+.hover-card1:hover {
+  cursor: pointer;
+  border: 1px solid #05386b;
+}
+.hover-card1:hover > .hover-card-txt {
+  transition: display linear 1s;
+  display: block;
+  padding-bottom: 0px !important;
+  padding-top: 60px;
+}
+.hover-card1:hover > .hover-card-imge-1 {
+  display: none;
+}
+.hover-card-imge-1 {
+  margin-top: 109px;
+  height: 125px;
+  width: 143px;
+  border-radius: 90px;
+}
+
+.hover-card1 ul {
+  padding-left: 20px;
+}
+.hover-card-txt {
+  /* text-align: center; */
+
+  display: none;
+
+  padding-right: 30px;
+}
+
+.hovercard-mainheader {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.header-img img {
+  border-radius: 100px;
+}
+@media (max-width: 767px) {
+  .hovercard-mainheader {
+    flex-direction: column-reverse;
+  }
+  .hovercard-header-txt h1,
+  h2,
+  h3,
+  h4 {
+    color: #05386b;
+    font-size: 40px;
+  }
+  .hovercard-header-txt span {
+    color: rgb(160, 78, 78);
+    font-size: 40px;
+  }
+  .header-img {
+    display: none;
+  }
+  .hovercad-main {
+    padding-top: 100px;
+  }
+  .hovercard-wrapper {
+    padding-top: 106px;
+  }
+}

@@ -1,0 +1,253 @@
+.services-main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px 0;
+  background: linear-gradient(#a8dba4, white);
+  font-family: "Manrope", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+}
+
+.service-card {
+  /* outline: 1px solid grey; */
+  border-radius: 4px;
+
+  /* margin: 5px 40px; */
+  margin: 50px 0;
+}
+.serve img {
+  width: 39px;
+}
+
+.serve {
+  outline: 1px solid #05386b;
+}
+.serve:hover {
+  outline: 1px solid #05386b;
+}
+
+.service-card:hover {
+  /* outline: 1px solid white; */
+}
+h1 {
+  font-size: 3rem;
+}
+
+.coll {
+  height: 50vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.span12 {
+  width: 80%;
+  padding: 40px 0;
+
+  position: absolute;
+  height: 35vh;
+}
+
+.span22 {
+  width: 80%;
+  position: absolute;
+  height: 35vh;
+}
+
+.span32 {
+  width: 80%;
+
+  position: absolute;
+  height: 35vh;
+}
+
+.span42 {
+  width: 80%;
+  position: absolute;
+  height: 35vh;
+}
+
+.coll:hover .span12 {
+  width: 80%;
+  transform: translateY(50px);
+  position: absolute;
+  background-color: #edf1ff;
+
+  /* background-color: #13202d; */
+
+  transition: 500ms all ease-in-out;
+  /* transition: box-shadow linear 1s; */
+
+  box-shadow: 0 0 10px #05386b;
+  border: 2px solid #05386b;
+
+  z-index: 4;
+}
+
+.coll:hover .span22 {
+  width: 75%;
+  transform: translateY(40px);
+  position: absolute;
+  background-color: #edf1ff;
+
+  /* background-color: #13202d; */
+
+  transition: 500ms all ease-in-out;
+
+  z-index: 3;
+}
+.coll:hover .span32 {
+  transform: translateY(30px);
+  position: absolute;
+  background-color: #edf1ff;
+
+  /* background-color: #13202d; */
+
+  transition: 500ms all ease-in-out;
+
+  width: 70%;
+  z-index: 2;
+}
+.coll:hover .span42 {
+  width: 65%;
+  transform: translateY(20px);
+  position: absolute;
+  background-color: #edf1ff;
+
+  /* background-color: #13202d; */
+
+  z-index: 1;
+  transition: 500ms all ease-in-out;
+}
+
+.spanned {
+  border: 1px solid #05386b;
+}
+.span1 {
+  width: 80%;
+  padding: 40px 0;
+
+  position: absolute;
+  height: 35vh;
+}
+
+.span2 {
+  width: 80%;
+  position: absolute;
+  height: 35vh;
+}
+
+.span3 {
+  width: 80%;
+
+  position: absolute;
+  height: 35vh;
+}
+
+.span4 {
+  width: 80%;
+  position: absolute;
+  height: 35vh;
+}
+
+.coll {
+  height: 50vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coll:hover .span1 {
+  width: 80%;
+  transform: translateY(-50px);
+  position: absolute;
+  /* background-color: #13202d; */
+  background-color: #edf1ff;
+
+  transition: 500ms all ease-in-out;
+
+  box-shadow: 0 0 10px #05386b;
+  border: 2px solid #05386b;
+
+  z-index: 4;
+}
+
+.coll:hover .span2 {
+  width: 75%;
+  transform: translateY(-40px);
+  position: absolute;
+  background-color: #edf1ff;
+
+  /* background-color: #13202d; */
+
+  transition: 500ms all ease-in-out;
+
+  z-index: 3;
+}
+.coll:hover .span3 {
+  transform: translateY(-30px);
+  position: absolute;
+  /* background-color: #13202d; */
+  background-color: #edf1ff;
+
+  transition: 500ms all ease-in-out;
+
+  width: 70%;
+  z-index: 2;
+}
+.coll:hover .span4 {
+  width: 65%;
+  transform: translateY(-20px);
+  position: absolute;
+  background-color: #edf1ff;
+
+  /* background-color: #13202d; */
+
+  z-index: 1;
+  transition: 500ms all ease-in-out;
+}
+
+.services-btn button {
+  border: none;
+  background: #05386b;
+
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 50px;
+  padding: 10px 24px;
+  text-transform: uppercase;
+}
+.services-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.services-btn svg {
+  color: white;
+  margin-left: 10px;
+}
+.services-btn a:hover {
+  color: white;
+}
+.services-btn button:hover > .arrow-icon {
+  transform: translateX(7px);
+}
+.font-color h2 {
+  color: #05386b;
+}
+.font-color h6 {
+  color: #05386b;
+}
+.services-main h1 {
+  color: #05386b;
+}
+
+@media only screen and (max-width: 575px) {
+  .service-card {
+    margin: 10px 0;
+    width: 50%;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
